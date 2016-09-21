@@ -1,0 +1,23 @@
+{
+  "name": "raspbian",
+  "version": "1.0.0",
+  "description": "raspbian",
+  "preferGlobal": "true",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js -find"
+  },
+  "bin":{
+    "raspbian": "./bin/raspbian"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miyapub/raspbian.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miyapub/raspbian/issues"
+  },
+  "homepage": "https://github.com/miyapub/raspbian#readme"
+}
