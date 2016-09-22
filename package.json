@@ -1,15 +1,18 @@
 {
   "name": "raspbian",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "raspbian",
-  "preferGlobal": "true",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js -find"
+    "test": "node ./lib/main.js -find"
   },
   "bin":{
-    "raspbian": "./bin/raspbian"
+    "raspbian": "./lib/main.js"
   },
+  "engines": {
+    "node": "*"
+  },
+  "preferGlobal": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/miyapub/raspbian.git"
