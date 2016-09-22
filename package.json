@@ -1,6 +1,6 @@
 {
   "name": "raspbian",
-  "version": "1.0.5",
+  "version": "1.0.8",
   "description": "raspbian",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "type": "git",
     "url": "git+https://github.com/miyapub/raspbian.git"
   },
-  "author": "",
+  "author": "miyapub",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/miyapub/raspbian/issues"
